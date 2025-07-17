@@ -1,0 +1,74 @@
+# Site
+title: Sarah-Jane Walton
+name: Academic Portfolio
+description: Academic researcher and lecturer portfolio
+logo: 'assets/images/avatar.jpg'
+favicon: 'assets/images/avatar.jpg'
+baseurl: ""
+url: "https://sjwalton.github.io"
+email: 
+google_analytics: 
+
+# SEO
+twitter:
+  username: 
+  card: summary
+
+# Social
+social:
+  name: 
+  links:
+    - https://github.com/sjwalton
+
+# Authors
+authors:
+  sjwalton:
+    name: Sarah-Jane Walton
+    display_name: Sarah-Jane Walton
+    avatar: 'assets/images/avatar.jpg'
+    email: 
+    web: https://sjwalton.github.io
+    twitter: 
+    description: "Academic researcher and lecturer with 10 years' experience in qualitative humanities and social science research and education."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-remote-theme
+
+# Remote theme
+remote_theme: wowthemesnet/mediumish-theme-jekyll
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+highlighter: rouge
+
+# Lazy Images
+lazyimages: "enabled"
+
+# Exclude
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
